@@ -1,0 +1,28 @@
+footprint: [[-0.205, -0.155], [-0.205, 0.155], [0.077, 0.155], [0.077, -0.155]]
+
+robot_base_frame: base_footprint
+update_frequency: 10.0
+publish_frequency: 10.0
+transform_tolerance: 0.5
+
+obstacle_range: 3.0
+raytrace_range: 3.5
+
+#map_type: costmap
+#observation_sources: scan
+#scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+
+static:
+  map_topic: /map
+
+inflation:
+  robot_radius: 0.17
+  inflation_radius: 0.17
+
+obstacles:
+  observation_sources: scan
+  scan:
+    data_type: LaserScan
+    topic: scan
+    marking: true
+    clearing: true

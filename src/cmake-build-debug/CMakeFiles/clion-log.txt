@@ -1,0 +1,147 @@
+/opt/clion-2019.3.5/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/oleksandr/Documents/thesis/turtlebot_ws/src
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/oleksandr/Documents/thesis/turtlebot_ws/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/oleksandr/Documents/thesis/turtlebot_ws/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/oleksandr/Documents/thesis/turtlebot_ws/devel;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/oleksandr/Documents/thesis/turtlebot_ws/src/cmake-build-debug/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.20
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 13 packages in topological order:
+-- ~~  - turtlebot3 (metapackage)
+-- ~~  - turtlebot3_msgs
+-- ~~  - turtlebot3_navigation
+-- ~~  - turtlebot3_simulations (metapackage)
+-- ~~  - my_package
+-- ~~  - realsense_camera
+-- ~~  - turtlebot3_bringup
+-- ~~  - turtlebot3_example
+-- ~~  - turtlebot3_fake
+-- ~~  - turtlebot3_gazebo
+-- ~~  - turtlebot3_slam
+-- ~~  - turtlebot3_teleop
+-- ~~  - turtlebot3_description
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin metapackage: 'turtlebot3'
+-- ==> add_subdirectory(turtlebot3/turtlebot3)
+-- +++ processing catkin package: 'turtlebot3_msgs'
+-- ==> add_subdirectory(turtlebot3_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- turtlebot3_msgs: 3 messages, 0 services
+-- +++ processing catkin package: 'turtlebot3_navigation'
+-- ==> add_subdirectory(turtlebot3/turtlebot3_navigation)
+-- +++ processing catkin metapackage: 'turtlebot3_simulations'
+-- ==> add_subdirectory(turtlebot3_simulations/turtlebot3_simulations)
+-- +++ processing catkin package: 'my_package'
+-- ==> add_subdirectory(my_package)
+-- +++ processing catkin package: 'realsense_camera'
+-- ==> add_subdirectory(realsense/realsense_camera)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- realsense_camera: 1 messages, 5 services
+-- +++ processing catkin package: 'turtlebot3_bringup'
+-- ==> add_subdirectory(turtlebot3/turtlebot3_bringup)
+-- +++ processing catkin package: 'turtlebot3_example'
+-- ==> add_subdirectory(turtlebot3/turtlebot3_example)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Generating .msg files for action turtlebot3_example/Turtlebot3 /home/oleksandr/Documents/thesis/turtlebot_ws/src/turtlebot3/turtlebot3_example/action/Turtlebot3.action
+Generating for action Turtlebot3
+-- turtlebot3_example: 7 messages, 0 services
+-- +++ processing catkin package: 'turtlebot3_fake'
+-- ==> add_subdirectory(turtlebot3_simulations/turtlebot3_fake)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'turtlebot3_gazebo'
+-- ==> add_subdirectory(turtlebot3_simulations/turtlebot3_gazebo)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found Boost: /usr/include (found suitable version "1.58.0", minimum required is "1.40.0") found components:  thread system filesystem program_options regex iostreams date_time chrono atomic 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "2.6.1") 
+-- Found Boost: /usr/include (found version "1.58.0")  
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+CMake Warning (dev) at /opt/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindBoost.cmake:1270 (if):
+  Policy CMP0054 is not set: Only interpret if() arguments as variables or
+  keywords when unquoted.  Run "cmake --help-policy CMP0054" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  Quoted variables like "chrono" will no longer be dereferenced when the
+  policy is set to NEW.  Since the policy is not set the OLD behavior will be
+  used.
+Call Stack (most recent call first):
+  /opt/clion-2019.3.5/bin/cmake/linux/share/cmake-3.15/Modules/FindBoost.cmake:1904 (_Boost_MISSING_DEPENDENCIES)
+  /usr/share/OGRE/cmake/modules/FindOGRE.cmake:318 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:108 (find_package)
+  turtlebot3_simulations/turtlebot3_gazebo/CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- +++ processing catkin package: 'turtlebot3_slam'
+-- ==> add_subdirectory(turtlebot3/turtlebot3_slam)
+-- +++ processing catkin package: 'turtlebot3_teleop'
+-- ==> add_subdirectory(turtlebot3/turtlebot3_teleop)
+-- +++ processing catkin package: 'turtlebot3_description'
+-- ==> add_subdirectory(turtlebot3/turtlebot3_description)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/oleksandr/Documents/thesis/turtlebot_ws/src/cmake-build-debug
